@@ -81,20 +81,3 @@ unemployment_reshaped %>%
 
 #Save plot as png
 ggsave("us_unemployment.png")
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
