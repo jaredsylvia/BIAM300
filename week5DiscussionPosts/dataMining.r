@@ -60,6 +60,6 @@ associationPlot <- ggplot(rules, aes(x = support, y = confidence)) +
   theme_minimal()
 
 # Arrange all plots
-grid.arrange(rawPlot, kMeansPlot, pcaPlot, associationPlot, ncol = 2)
+grid.arrange(rawPlot, kMeansPlot, associationPlot, ncol = 2)
 
 
